@@ -4,17 +4,17 @@ import matplotlib.pyplot as plt
 personas = ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"]
 
 # 1) Horas dormidas anoche (líneas)
-horas_dormidas = [6, 8, 5, 7, 9, 6, 8, 7, 5, 6]
+horas_dormidas = [5, 8, 6, 7, 6, 7, 6, 5, 6, 4]
 
 # 2) Tazas de café al día (barras)
-tazas_cafe = [1, 2, 0, 3, 1, 2, 2, 1, 4, 3]
+tazas_cafe = [0, 2, 0, 0, 4, 1, 0, 2, 6, 2]
 
 # 3) Red social más usada (pastel)
-red_social = ["WhatsApp", "Instagram", "TikTok", "Facebook", "WhatsApp",
-              "Instagram", "WhatsApp", "X", "Instagram", "Facebook"]
+red_social = ["WhatsApp", "Facebook", "TikTok", "TikTok", "TikTok",
+              "TikTok", "TikTok", "Facebook", "Instagram", "TikTok"]
 
 # 4) Minutos hasta la U (histograma)
-minutos_uni = [25, 40, 30, 60, 35, 20, 45, 50, 30, 55]
+minutos_uni = [75, 200, 120, 30, 10, 120, 60, 60, 40, 180 ]
 
 # ====== 1) Gráfico de líneas: horas dormidas ======
 plt.figure(figsize=(6, 4))
